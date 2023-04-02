@@ -1,0 +1,12 @@
+{
+    "name": "carol/app",
+    "description": "make a cow",
+    "autoload": {
+        "psr-4": {
+            "Carol\\App\\": "src/"
+        }
+    },
+    "require": {
+        "gipetto/cowsay": "^1.1"
+    }
+}
